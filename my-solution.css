@@ -74,3 +74,15 @@
     filter: opacity(0.8) sepia(1);
     transform: scale(1.5);
 }
+
+.ex-10-icon {
+    animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    } to{
+        transform: rotate(360deg);
+    }
+}
